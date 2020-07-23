@@ -19,6 +19,5 @@ public class SimpleEmail {
 
 		Session session = Session.getInstance(props, null);
 
-		EmailUtil.sendEmail(session, emailID, "SimpleEmail Testing Subject", "SimpleEmail Testing Body");
 	}
 }
